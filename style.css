@@ -1,14 +1,29 @@
 .container {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    height: 2,000px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 2,000px;
 }
 
 .flexRow {
     flex-flow: row wrap;
+    outline: 2px solid red;
 }
 
 .flexColumn {
     flex-flow: column wrap;
+    outline: 2px solid green;
+}
+
+.flexColumn2 {
+    flex-flow: column wrap;
+    outline: 2px solid blue;
 }
 
 .rowImages {
@@ -17,4 +32,16 @@
 
 .columnImages {
 
+}
+
+.start {
+    align-self: flex-start;
+}
+
+.center {
+    align-self: center;
+}
+
+.end {
+    align-self: flex-end;
 }
